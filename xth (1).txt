@@ -1,0 +1,11 @@
+@keyframes myAnim {
+ from {
+   margin-left: 0;
+ }
+ to {
+   margin-left: 500px;
+ }
+}
+h1 {
+ animation: myAnim 5s linear alternate infinite;
+}
